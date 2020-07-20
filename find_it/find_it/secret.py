@@ -1,0 +1,6 @@
+DB_NAME = 'django_find'
+DB_USER = 'postgres'
+DB_PASSWORD = '3201227'
+DB_HOST = 'localhost'
+MAILGUN_KEY = 'pubkey-4ed9a05b6cf7f72e967057c4a5bafd35'
+API = '40cbdfd6b722be7647f8142fe13984f2-ffefc4e4-c636fd77'

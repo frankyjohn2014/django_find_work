@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Scraping Site</h1>
+        {% for job in jobs %}
+            <h4><a href="{{job.href}}">{{job.title}}</a></h4>
+            <p>{{job.descript}}</p><br>
+            <p>{{job.company}}</p>
+            <hr><br>
+        {% endfor %}
+    </div>
+</body>
+</html>
